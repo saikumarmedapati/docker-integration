@@ -1,4 +1,4 @@
 FROM openjdk:17-jdk
 EXPOSE 8085
-ADD target/docker-integration-api.jar docker-integration-api.jar
-ENTRYPOINT [ "java", "-jar", "/docker-integration-api.jar" ]
+ADD target/docker-jenkins-integration.jar docker-jenkins-integration.jar
+ENTRYPOINT [ "java", "-jar", "/docker-jenkins-integration.jar" ]
